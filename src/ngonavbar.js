@@ -5,14 +5,14 @@ function Ngonavbar() {
 
         <div>
 
-            <nav class="navbar navbar-expand-xxl navbar-light bg-light ml-5">
-                <div className="icon"><i class="fas fa-home fa-3x"></i></div>
+            <nav class="navbar navbar-expand-xl navbar-light bg-light">
+                <div className="icon" style={{marginLeft:'3%'}}><i class="fas fa-home fa-4x"></i></div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-lg-auto" >
-                        <li className="t active" >
+                <div class="collapse navbar-collapse" id="navbarSupportedContent"style={{marginLeft:'60%'}}>
+                    <ul className="navbar-nav" >
+                        <li className="t active">
                             <a className="nav-link" href="#Home" ><p className="pt-1 active" style={{ color: 'black' }}>HOME </p></a>
                         </li>
                         <li className="t">
