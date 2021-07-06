@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.jumbotron{
+    color: #fff;
+    background-image: url('ss.jpg');
+    width: 100%;
+    
   }
+  @media(max-width:540px )
+  {
+    .jumbotron{
+      width: 100%;
+      
+    }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.navbar-light .navbar-toggler-icon{
+    border: none;
+    color: #fff;
+    border: 2px solid #979797;
+    border-radius: 0;
+    outline: none;
   }
-  to {
-    transform: rotate(360deg);
+  .navbar-nav.a{
+    color: rgb(0, 0, 0);
   }
-}
+  .navbar{
+    padding: 20px ;
+    font-family: 'EB Garamond', serif;
+  
+  
+  }
+  .t:hover{
+    background-color: rgba(152,194,190,255)
+    ;
+    color: #fff;
+    text-decoration: none;
+  }
+  .btn:hover{
+    background-color: rgba(152,194,190,255)
+    ;
+    color: #fff;
+    text-decoration: none;
+  }
+  .navbar-brand{
+  
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+  }
+  
+  .nav-item{
+    font-weight: 800;
+    text-transform: uppercase;
+  
+  }
+  .nav-item:hover{
+    background: #000;
+    color: rgb(255, 255, 255);
+  } 
